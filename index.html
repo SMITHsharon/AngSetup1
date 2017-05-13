@@ -46,7 +46,8 @@
 					</div>
 				</div> <!-- .col -->
 	      		<div class="col-xs-4 col-xs-offset-5 recipeBtn">
-					<button class="col-xs-6 btn btn-info" ng-click="recipe()">Click For Recipe!</button>
+					<!-- <button class="col-xs-6 btn btn-info" ng-click="recipe()">Click For Recipe!</button> -->
+					<button class="col-xs-6 btn btn-info recipeButton" ng-click="recipe()">Click for Recipe!</button>
 	     		</div>
 			</div> <!-- .ng-show -->	
 		</div> <!-- .row -->
@@ -54,59 +55,65 @@
 
 		<div class="row shRecipe">
 			<div ng-show="showRecipe">
-				<div class="col-xs-4 col-xs-4 col-xs-4">
-					<!-- <div> -->
-					<h3 class="pieHeader">Stargazy Pie!</h3>
-					<p>In this whimsical Cornish dish, whole sardines poke their heads through the crust of a savory pie filled with bacon, hard-boiled eggs, and a mustard-laced custard.</p>
+					<div class="col-xs-4">
+					<!-- <div class="col-xs-4 col-xs-4 col-xs-4"> -->
+						<!-- <div> -->
+						<h3 class="pieHeader">Stargazy Pie!</h3>
+						<p>In this whimsical Cornish dish, whole sardines poke their heads through the crust of a savory pie filled with bacon, hard-boiled eggs, and a mustard-laced custard.</p>
 
-					<img src="./images/stargazy pie.png">
-				</div>
+						<img src="./images/stargazy pie.png">
+					</div>
 
-				<div class="recipe"> <!-- recipe -->
-				<!-- citation: http://www.saveur.com/article/recipes/stargazy-pie-english-sardine-pie -->
-					<p>SERVES 8</p>
-					<p>FOR THE CRUST:</p>
-					<ul>
-						<li>2 1⁄4 cups flour, plus more for dusting</li>
-						<li>1 tsp. kosher salt</li>
-						<li>1 tsp. mustard powder, preferably Coleman’s</li>
-						<li>12 tbsp. unsalted butter, cubed and chilled</li>
-						<li>6 tbsp. ice-cold water</li>
-					</ul>
-					<p>FOR THE FILLING:</p>
-					<ul>
-						<li>6 slices bacon, cut into 1” pieces</li>
-						<li>2 tbsp. unsalted butter</li>
-						<!-- <li>1 medium yellow onion, finely chopped</li> -->
-						<li>...</li>
-						<li>rest of recipe would follow</li>
-						<li>but Bootstrap is a hot-mess-killing-me</li>
-						<!-- <li>1⁄2 cup chicken stock</li>
-						<li>1⁄3 cup crème fraîche</li>
-						<li>2 tbsp. English mustard, such as Colman’s</li>
-						<li>2 tbsp. finely chopped parsley</li>
-						<li>1 tbsp. fresh lemon juice</li>
-						<li>2 eggs, beaten</li>
-						<li>Kosher salt and freshly ground black pepper, to taste</li>
-						<li>8 fresh sardines, cleaned, heads attached</li>
-						<li>3 eggs, hard-boiled, peeled, and sliced</li> -->
-					</ul>
-				</div>
-				<!-- <div>
-					<p>Instructions</p>
-					<ol> -->
-						<!-- <li>Make the crust: Whisk flour, mustard, and salt in a bowl. Using a dough blender, two forks, or your fingers, cut butter into flour mixture, forming pea-size crumbles. Add water; work dough until smooth but with visible flecks of butter. (Alternatively, pulse ingredients in a food processor.) Divide dough in half and flatten into disks. Wrap disks in plastic wrap; chill 1 hour before using.</li>
-						<li>Make the filling: Heat bacon in a 4-qt. saucepan over medium-high heat; cook until slightly crisp, 5–7 minutes. Using a slotted spoon, transfer bacon to paper towels to drain. Add butter and onion to pan; cook until golden, 5–7 minutes. Remove from heat; whisk in stock, crème fraîche, mustard, parsley, lemon juice, half the egg, and salt; set aside.</li>
-						<li>Assemble and bake the pie: Heat oven to 400°. On a lightly floured surface, roll 1 disk of dough into a 12” round. Fit into a 9” pie plate; trim edges, leaving 1” dough overhanging edge of plate. Arrange sardines in a clocklike pattern with heads resting along edge of crust. Pour filling over sardines; top with reserved bacon, the hard-boiled eggs, salt, and pepper. Roll remaining disk of dough into a 12” round; cut eight 1” slits in dough about 2” from the edge. Place over top of pie and pull sardine heads through slits. Pinch top and bottom edges together and fold under; crimp edges. Brush with remaining egg and cut three 1”-long slits in top of pie; bake until crust is golden and filling is bubbling, 35–40 minutes. Let cool slightly before serving.</li>
-					</ol> -->
-				<!-- </div> -->
+					<div class="recipe"> 
+					<div class="recipe panel panel-default recipePanel">
+						<div class="panel-body">
+						<!-- citation: http://www.saveur.com/article/recipes/stargazy-pie-english-sardine-pie -->
+							<div class="col-xs-4 ingredients">
+								<h3 class="pieHeader">Recipe</h3>
+								<h5>SERVES 8</h5>
+								<h5>FOR THE CRUST:</h5>
+								<ul>
+									<li>2 1⁄4 cups flour, plus more for dusting</li>
+									<li>1 tsp. kosher salt</li>
+									<li>1 tsp. mustard powder, preferably Coleman’s</li>
+									<li>12 tbsp. unsalted butter, cubed and chilled</li>
+									<li>6 tbsp. ice-cold water</li>
+								</ul>
+								<h5>FOR THE FILLING:</h5>
+								<ul>
+									<li>6 slices bacon, cut into 1” pieces</li>
+									<li>2 tbsp. unsalted butter</li>
+									<li>1 medium yellow onion, finely chopped</li>
+									<li>1⁄2 cup chicken stock</li>
+									<li>1⁄3 cup crème fraîche</li>
+									<li>2 tbsp. English mustard, such as Colman’s</li>
+									<li>2 tbsp. finely chopped parsley</li>
+									<li>1 tbsp. fresh lemon juice</li>
+									<li>2 eggs, beaten</li>
+									<li>Kosher salt and freshly ground black pepper, to taste</li>
+									<li>8 fresh sardines, cleaned, heads attached</li>
+									<li>3 eggs, hard-boiled, peeled, and sliced</li>
+								</ul>
+							</div> <!-- .ingredients -->
+						<!-- </div>  -->
+
+							<div class="col-xs-4 instructions">
+								<h5>INSTRUCTIONS:</h5>
+								<ol>
+									<li>Make the crust: Whisk flour, mustard, and salt in a bowl. Using a dough blender, two forks, or your fingers, cut butter into flour mixture, forming pea-size crumbles. Add water; work dough until smooth but with visible flecks of butter. (Alternatively, pulse ingredients in a food processor.) Divide dough in half and flatten into disks. Wrap disks in plastic wrap; chill 1 hour before using.</li>
+									<li>Make the filling: Heat bacon in a 4-qt. saucepan over medium-high heat; cook until slightly crisp, 5–7 minutes. Using a slotted spoon, transfer bacon to paper towels to drain. Add butter and onion to pan; cook until golden, 5–7 minutes. Remove from heat; whisk in stock, crème fraîche, mustard, parsley, lemon juice, half the egg, and salt; set aside.</li>
+									<li>Assemble and bake the pie: Heat oven to 400°. On a lightly floured surface, roll 1 disk of dough into a 12” round. Fit into a 9” pie plate; trim edges, leaving 1” dough overhanging edge of plate. Arrange sardines in a clocklike pattern with heads resting along edge of crust. Pour filling over sardines; top with reserved bacon, the hard-boiled eggs, salt, and pepper. Roll remaining disk of dough into a 12” round; cut eight 1” slits in dough about 2” from the edge. Place over top of pie and pull sardine heads through slits. Pinch top and bottom edges together and fold under; crimp edges. Brush with remaining egg and cut three 1”-long slits in top of pie; bake until crust is golden and filling is bubbling, 35–40 minutes. Let cool slightly before serving.</li>
+								</ol>
+							</div> <!-- .instructions -->
+					</div> <!-- .panel-body -->
+				</div>  <!-- .panel -->
 			</div> <!-- .ng-show="showRecipe" -->
 		</div> <!--- .row -->
 
 		<div class="row shRecipe">
 			<div ng-show="showRecipe">
 	      		<div class="col-xs-4 col-xs-offset-1 recipeBtn">
-					<button class="col-xs-6 btn btn-info" ng-click="recipe()">Click For Recipe!</button>
+					<button class="col-xs-6 btn btn-info" ng-click="clearAll()">Clear All</button>
 	     		</div>
 			</div> <!-- .ng-show="showRecipe" -->
 		</div> <!-- .row -->

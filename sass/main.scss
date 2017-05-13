@@ -1,7 +1,7 @@
 @import "color";
 
 body {
-	background-color: $lightblue;
+
 	background-size: cover;
 	background-image: url("/images/tablecloth.jpeg");
 }
@@ -14,8 +14,6 @@ body {
 	img {
 
 		display: block;
-	    // margin: auto;
-	    // margin-bottom: 25px;
 	    padding-top: 15px;
 	    width: 30px;
 	    height: auto;
@@ -44,14 +42,10 @@ body {
 	}
 }
 
+
 .shRecipe {
 
 	margin-left: 25px;
-
-	.pieHeader {
-		margin-top: 0;
-		padding-top: 0;
-	}
 
 	.recipe {
 		margin-top: 50px;
