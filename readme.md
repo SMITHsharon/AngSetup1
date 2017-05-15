@@ -5,11 +5,14 @@
 This was an exercise to walk through project setup, layering in Angular, and then coding some simple DOM output on Zoe's favorite pie. 
 
 #### Zoe's Fave Pie on Launch 
-![Zoe's Fave Pie on Launch]()
+![Zoe's Fave Pie on Launch](https://raw.githubusercontent.com/SMITHsharon/AngSetup1/zoeFood/screens/Zoe%20Pies%20on%20Launch%20.png)
 
-#### Zoe's Fave Pie on Click
+#### Zoe's Fave Pie on Pie Click 
 ![Zoe's Fave Pie on Click]()
 
+#### Zoe's Fave Pie on Recipe Click 
+![Zoe's Fave Pie on Recipe Click]()
+![Zoe's Fave Pie on Recipe Click]()
 
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
