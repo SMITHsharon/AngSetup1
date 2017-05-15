@@ -15,11 +15,8 @@ This was an exercise to walk through project setup, layering in Angular, and the
 
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
-- One controller is defined for the app, `ShroomCtrl`. 
-- The controller loads the JSON data from Firebase with an `XHR` call using the `$http` function that Angular provides.
-- The app puts the JSON object into `$scope.mushrooms` and binds that variable to the controller.
+- One controller is defined for the app, `FoodCtrl`. 
 - Uses the Angular directives: `ng-click`, `ng-repeat`, and `filter`. 
-- 
 
 
 ### Technologies Used
