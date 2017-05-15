@@ -11,8 +11,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 ![Zoe's Fave Pie on Click](https://raw.githubusercontent.com/SMITHsharon/AngSetup1/zoeFood/screens/Zoe%20Pies%20on%20Try%20This%20Click.png)
 
 #### Zoe's Fave Pie on Recipe Click 
-![Zoe's Fave Pie on Recipe Click]()
-![Zoe's Fave Pie on Recipe Click]()
+![Zoe's Fave Pie on Recipe Click](https://raw.githubusercontent.com/SMITHsharon/AngSetup1/zoeFood/screens/Zoe%20Pies%20on%20Click%20Recipe.png)
 
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
