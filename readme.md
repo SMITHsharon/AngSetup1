@@ -29,8 +29,8 @@ This was an exercise to walk through project setup, layering in Angular, and the
 
 ### How To View The Screen 
 ```
-git clone 
-cd 
+git clone https://github.com/SMITHsharon/AngSetup1.git
+cd angSetup1
 cd lib
 bower install
 npm install
