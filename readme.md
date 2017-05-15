@@ -16,7 +16,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 ### Project Specs
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
 - One controller is defined for the app, `FoodCtrl`. 
-- Uses the Angular directives: `ng-click`, `ng-repeat`, and `filter`. 
+- Uses the Angular directives: `ng-click` which then calls the appropriate function to display output. 
 
 
 ### Technologies Used
