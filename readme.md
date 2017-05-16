@@ -17,6 +17,7 @@ This was an exercise to walk through project setup, layering in Angular, and the
 - Complete project setup, including jQuery, Bootstrap, SASS, Angular, Grunt
 - One controller, `FoodCtrl`, is defined for the app
 - Uses the Angular directive, `ng-click`, which then calls the appropriate function to display output
+- Three buttons: `Zoe Should Try This!`, `Click for Recipe!`, `Clear All`
 
 
 ### Technologies Used
