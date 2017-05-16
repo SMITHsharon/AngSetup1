@@ -1,2 +1,36 @@
 body {
-  background-color: lightblue; }
+  background-size: cover;
+  background-image: url("/images/tablecloth.jpeg"); }
+
+.navbar-brand {
+  padding-top: 0px; }
+  .navbar-brand img {
+    display: block;
+    padding-top: 15px;
+    width: 30px;
+    height: auto; }
+
+.pageHeader {
+  text-align: center;
+  margin-top: 50px; }
+
+.showPieImage .pieHeader {
+  text-align: center; }
+
+.showPieImage img {
+  display: block;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 75%;
+  height: auto; }
+
+.shRecipe {
+  margin-left: 25px; }
+  .shRecipe .recipe {
+    margin-top: 50px; }
+  .shRecipe img {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 75%;
+    height: auto; }
