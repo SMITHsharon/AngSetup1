@@ -3,8 +3,6 @@ var app = angular.module("zoeFoods", []);
 
 app.controller("FoodCtrl", ($scope) => {
 
-	$scope.buttonLabel = "Click for Recipe!";
-
 	$scope.tryThis = () => {
 		$scope.showPie = true;
 	};
